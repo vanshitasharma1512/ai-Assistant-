@@ -83,14 +83,6 @@ if __name__ == "__main__":
             codePath="C:\\Users\\vansh\\Pictures"
             os.startfile(codePath)
 
-        elif 'email to ' in query:
-            try:
-                speak("wahta should i say?")
-                content = takeCommand()
-                to="kislaykumar2018@gmail.com"
-                speak("email has sent!")
-            except Exception as e:
-                speak("sorry my freind email has not send")
         elif 'play song' in query :
             music = "C:\\Users\\vansh\\Music\on"
             # or you have list of aongs use random variable
